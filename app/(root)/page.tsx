@@ -9,7 +9,7 @@ export default function Home() {
       <BookList
         title="Latest Books"
         books={sampleBooks}
-        containaerClassName="mt-28"
+        containerClassName="mt-28"
       />
     </>
   );

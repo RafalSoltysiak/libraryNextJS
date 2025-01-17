@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+
 import { cn } from "@/lib/utils";
 import BookCoverSvg from "./BookCoverSvg";
 
@@ -28,11 +28,11 @@ export default function BookCover({
 }: Props) {
   return (
     <div
-      className={
-        (cn("relative transition-all duration-300"),
+      className={cn(
+        "relative transition-all duration-300",
         variantStyles[variant],
-        className)
-      }
+        className
+      )}
     >
       <BookCoverSvg coverColor={coverColor} />
       <div
