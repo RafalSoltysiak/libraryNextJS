@@ -4,7 +4,7 @@ import BookCard from "./BookCard";
 interface Props {
   title: string;
   books: Book[];
-  containerClassName: string;
+  containerClassName?: string;
 }
 
 export default function BookList({ title, books, containerClassName }: Props) {
